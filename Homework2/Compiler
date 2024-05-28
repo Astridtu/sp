@@ -1,0 +1,21 @@
+#include <stdio.h>
+//using chatgpt
+int main() {
+    int counter = 1;
+
+    // do...while loop
+    do {
+        // Print the current counter value
+        printf("Counter: %d\n", counter);
+        // Increment the counter
+        counter++;
+    } while (counter <= 5);  // Continue the loop while the counter is less than or equal to 5
+
+    return 0;
+}
+//expected output is:
+//Counter: 1
+//Counter: 2
+//Counter: 3
+//Counter: 4
+//Counter: 5
