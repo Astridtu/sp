@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <pthread.h>
-
+//using chatgpt
 #define LOOPS 100000
 int account_balance = 1000;
 
