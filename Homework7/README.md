@@ -10,6 +10,7 @@ Used an Integrated Development Environment (IDE) for better code navigation.
 Ran the code to see its output and behavior.
 Referred to online resources and forums for additional context.
 Sections of Code
+
 Section 1: Bootloader
 Description: The bootloader initializes the system and loads the kernel into memory.
 
@@ -20,10 +21,12 @@ Questions/Confusions:
 The assembly instructions used for setting up the stack pointer and jumping to the kernel entry point are not clear to me. For example:
 la sp, boot_stack
 j kernel_entry
+
 Section 2: Memory Management
 Description: This section of the code handles memory allocation and management.
 
 Understanding: The code appears to set up page tables and manage virtual memory.
+
 Section 3: Interrupt Handling
 Description: This part of the code deals with handling hardware and software interrupts.
 
